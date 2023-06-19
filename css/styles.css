@@ -374,6 +374,7 @@ nav {
   padding: 100px 0;
 }
 .index-footer {
+  position: relative;
   display: flex;
   align-items: baseline;
 }
@@ -401,14 +402,63 @@ nav {
   background-color: var(--social-green);
 }
 
-.social-media-title {
+.footer-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--whity-color);
   margin-bottom: 16px;
+  display: block;
 }
+
+.subscribe-list
+{
+  display: flex;
+  align-items:baseline;
+  gap: 24px;
+}
+.subscribe-footer
+{
+  position: absolute;
+  right: 0px;
+}
+.footer-mail
+{background-color: transparent;
+  border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+width: 264px;
+height: 40px;
+padding: 0 16px;
+color: var(--whity-color);}
+.footer-mail::placeholder
+{
+  font-size: 12px;
+line-height: 2;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--whity-color);
+}
+.subscribe-button
+{
+display: inline-block;
+padding: 8px 16px;
+width: 165px;
+height: 40px;
+margin: 0;
+}
+
+
+
+.subscribe-icon
+{display: inline-block;
+vertical-align: middle;
+fill: var(--whity-color);
+}
+
 /* main styling portfolio */
 
 .portfolio-main-section {
@@ -513,7 +563,7 @@ nav {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-
+/** MODAL STYLING **/
 .modal {
   position: fixed;
   top: 0;
@@ -579,7 +629,7 @@ nav {
 }
 .modal-field
 {
- height: 100%;
+  height: 100%;
 }
 .modal-title
 {

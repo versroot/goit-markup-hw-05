@@ -739,7 +739,10 @@ color: var(--customer-color);
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 2px;
-flex: none;
+display:inline-flex;
+justify-content: center;
+align-items: center;
+fill: transparent;
 
 }
 
@@ -755,4 +758,10 @@ flex: none;
 
   margin: 0 auto;
   
+}
+#user.privacy:checked
+{
+  background-color: var(--hover-color);
+  border: none;
+  fill: var(--greyish-color);
 }

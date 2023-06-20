@@ -516,21 +516,26 @@
           <div class="agree-wrap">
             <input 
               type="checkbox"
-              class="modal-check-box visually-hidden"
+              class="visually-hidden"
               name="user-privacy"
               value="true"
               id="user-privacy"
             />
-            <label class="iaccept" for="user-privacy"
-              >I accept the terms and conditions of the
+            <label class="iaccept" for="user-privacy">
+              <span class="modal-check-box">              <svg class="check-icon icon" width="10" height="8">
+                <use href="./images/icons.svg#check"></use>
+              </svg></span>
+            
+              I accept the terms and conditions of the
               <a href="">Privacy Policy</a></label
             >
           </div>
+          <button type="submit" class="solutions-button modal-send-button">
+            Send
+          </button>
         </form>
 
-        <button type="button" class="solutions-button modal-send-button">
-          Send
-        </button>
+
       </div>
     </div>
     <script src="./js/modal.js"></script>

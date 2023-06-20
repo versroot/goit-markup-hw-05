@@ -430,8 +430,12 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 width: 264px;
 height: 40px;
-padding: 0 16px;
-color: var(--whity-color);}
+padding-left: 16px;
+color: var(--whity-color);
+  font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em
+;}
 .footer-mail::placeholder
 {
   font-size: 12px;
@@ -446,7 +450,7 @@ color: var(--whity-color);
 {
 display: inline-block;
 padding: 8px 16px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 margin: 0;
 }
@@ -457,6 +461,7 @@ margin: 0;
 {display: inline-block;
 vertical-align: middle;
 fill: var(--whity-color);
+margin-left: 16px;
 }
 
 /* main styling portfolio */

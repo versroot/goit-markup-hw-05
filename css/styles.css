@@ -743,7 +743,7 @@ display:inline-flex;
 justify-content: center;
 align-items: center;
 fill: transparent;
-
+margin-right: 8px;
 }
 
 .agree-wrap
@@ -759,9 +759,13 @@ fill: transparent;
   margin: 0 auto;
   
 }
-#user.privacy:checked
+.uprivacy:checked + .iaccept span
 {
   background-color: var(--hover-color);
   border: none;
   fill: var(--greyish-color);
+}
+.privacylink
+{
+  color: var(--logolike-color);
 }

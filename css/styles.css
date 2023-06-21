@@ -374,7 +374,6 @@ nav {
   padding: 100px 0;
 }
 .index-footer {
-  position: relative;
   display: flex;
   align-items: baseline;
 }
@@ -396,6 +395,7 @@ nav {
 .social-bottom {
   padding: 0;
   gap: 16px;
+  margin-right: 80px;
 }
 .bottom-circle:hover,
 .bottom-circle:focus {
@@ -417,11 +417,6 @@ nav {
   display: flex;
   align-items:baseline;
   gap: 24px;
-}
-.subscribe-footer
-{
-  position: absolute;
-  right: 0px;
 }
 .footer-mail
 {background-color: transparent;

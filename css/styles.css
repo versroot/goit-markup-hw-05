@@ -380,6 +380,10 @@ nav {
 .par1footer {
   margin-right: 120px;
 }
+.social-media-footer
+{
+  margin-right: 80px;
+}
 .logo-studio-footer {
   color: var(--greyish-color);
 }
@@ -395,7 +399,6 @@ nav {
 .social-bottom {
   padding: 0;
   gap: 16px;
-  margin-right: 80px;
 }
 .bottom-circle:hover,
 .bottom-circle:focus {
